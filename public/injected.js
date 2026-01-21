@@ -66,6 +66,17 @@
         }
     };
 
+    // 获取当前选中的清晰度
+    const getVideoQuality = () => {
+        try {
+            const activeItem = document.querySelector('#quality-menu-expanded .submenu[role="menu"] div[role="menuitemradio"][aria-checked="true"] .menuitem-label');
+            return activeItem ? activeItem.textContent.trim() : "Unknown";
+        } catch (e) {
+            log.debug('[DMM Helper - Injected] Could not get quality:', e);
+            return "Unknown";
+        }
+    };
+
     // --- 尝试配对 pending 的 MPD 和 Keys ---
     function tryMatchPending() {
         if (pendingMPD && pendingKeys) {
@@ -95,6 +106,7 @@
             id: sessions.length + 1,
             time: getTime(),
             timestamp: Date.now(), // 记录精确时间戳用于后期匹配
+            quality: getVideoQuality(), // 记录当前清晰度
             mpd: mpdData.cleanUrl,
             fullMpd: mpdData.fullUrl,
             keys: keysData.parsedKeys,
@@ -207,6 +219,7 @@
                         id: sessions.length + 1,
                         time: getTime(),
                         timestamp: Date.now(),
+                        quality: getVideoQuality(),
                         mpd: pendingMPD.cleanUrl,
                         fullMpd: pendingMPD.fullUrl,
                         keys: [],
@@ -280,6 +293,7 @@
                             id: sessions.length + 1,
                             time: getTime(),
                             timestamp: Date.now(),
+                            quality: getVideoQuality(),
                             mpd: null,
                             fullMpd: null,
                             keys: pendingKeys.parsedKeys,
@@ -337,6 +351,7 @@
                 id: sessions.length + 1,
                 time: getTime(),
                 timestamp: Date.now(),
+                quality: getVideoQuality(),
                 mpd: null,
                 fullMpd: null,
                 keys: pendingKeys.parsedKeys,

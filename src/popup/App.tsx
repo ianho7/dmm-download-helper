@@ -96,7 +96,7 @@ const App: React.FC = () => {
               return (
                 <div key={session.id} className="session-card">
                   <div className="session-header">
-                    <div className="session-badge">SESSION #{session.id}</div>
+                    <div className="session-badge">#{session.id} {session.quality}</div>
                     <div className="session-actions">
                       {commandText && (
                         <button

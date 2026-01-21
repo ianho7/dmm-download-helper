@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 480px;
+  width: 500px;
   min-height: 600px;
   max-height: 600px;
   background: rgba(255, 255, 255, 0.95);
@@ -157,11 +157,11 @@ body {
 
 .session-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 18px;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .session-badge {

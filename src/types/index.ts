@@ -9,6 +9,7 @@ export interface DecryptionKey {
 export interface Session {
   id: number;
   time: string;
+  quality: string;
   mpd: string | null;
   fullMpd: string | null;
   keys: DecryptionKey[];
