@@ -47,7 +47,7 @@ If you prefer using a script manager, we also provide a Tampermonkey version (fu
 
 ### 4. Self-Construction
 1. Clone this project:
-   ```bash
+```bash
 git clone https://github.com/ianho7/dmm-download-helper.git
 ```
 2. Install dependencies and build:

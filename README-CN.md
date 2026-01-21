@@ -48,14 +48,14 @@
 
 ### 4. 自行构建
 1. 克隆本项目：
-   ```bash
-   git clone https://github.com/ianho7/dmm-download-helper.git
-   ```
+```bash
+git clone https://github.com/ianho7/dmm-download-helper.git
+```
 2. 安装依赖并构建：
-   ```bash
-   bun install
-   bun run build
-   ```
+```bash
+bun install
+bun run build
+```
 3. 在 Chrome 中加载 `dist` 目录。
 
 ---
