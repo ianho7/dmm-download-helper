@@ -34,19 +34,15 @@
 
 本项目提供多种使用方式，您可以根据需求选择：
 
-### 1. Chrome 插件商店 (推荐)
-直接通过 Chrome Web Store 安装正式版本（最便捷，支持自动更新）：
-[审核中](https://github.com/ianho7/dmm-download-helper)
-
-### 2. GitHub Release
+### 1. GitHub Release
 您可以从仓库的 [Releases](https://github.com/ianho7/dmm-download-helper/releases) 页面下载已打包好的 `zip` 文件。
 下载后解压，在 Chrome 中通过“加载已解压的扩展程序”进行安装。
 
-### 3. 油猴脚本 (Tampermonkey)
+### 2. 油猴脚本 (Tampermonkey)
 如果您更习惯使用脚本管理器，我们也提供了油猴版（功能可能与扩展版略有差异）：
 [点击前往 GreasyFork 下载](https://greasyfork.org/scripts/563249-dmm-download-helper)
 
-### 4. 自行构建
+### 3. 自行构建
 1. 克隆本项目：
 ```bash
 git clone https://github.com/ianho7/dmm-download-helper.git

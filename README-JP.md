@@ -33,19 +33,15 @@
 
 このプロジェクトは複数の使用方法を提供しており、必要に応じて選択できます：
 
-### 1. Chrome 插件商店 (推奨)
-Chrome ウェブストアから直接インストールする（推奨：自動更新対応）
-[審査中](https://github.com/ianho7/dmm-download-helper)
-
-### 2. GitHub Release
+### 1. GitHub Release
 仓库の [Releases](https://github.com/ianho7/dmm-download-helper/releases) ページから、パッケージ化された `zip` ファイルをダウンロードできます。
 ダウンロードしたら解凍し、Chrome で「既存の拡張機能を読み込む」を選択してインストールします。
 
-### 3. 油猴スクリプト (Tampermonkey)
+### 2. 油猴スクリプト (Tampermonkey)
 スクリプト管理器の使用に慣れている場合は、拡張版とは機能が若干異なる油猴版も提供しています：
 [GreasyFork に進んでダウンロードするにはクリック](https://greasyfork.org/scripts/563249-dmm-download-helper)
 
-### 4. 自分で構築する
+### 3. 自分で構築する
 1. このプロジェクトをクローンする：
 ```bash
 git clone https://github.com/ianho7/dmm-download-helper.git

@@ -33,19 +33,15 @@
 
 This project offers multiple usage methods, and you can choose according to your needs:
 
-### 1. Chrome Web Store (Recommended)
-Install the official version directly through the Chrome Web Store (most convenient, supports automatic updates):
-[Reviewing](https://github.com/ianho7/dmm-download-helper)
-
-### 2. GitHub Release
+### 1. GitHub Release
 You can download the packaged `zip` file from the repository's [Releases](https://github.com/ianho7/dmm-download-helper/releases) page.
 After downloading, extract it and install it in Chrome via "Load unpacked extension."
 
-### 3. Tampermonkey Script
+### 2. Tampermonkey Script
 If you prefer using a script manager, we also provide a Tampermonkey version (functionality may differ slightly from the extension version):
 [Click to go to GreasyFork to download](https://greasyfork.org/scripts/563249-dmm-download-helper)
 
-### 4. Self-Construction
+### 3. Self-Construction
 1. Clone this project:
 ```bash
 git clone https://github.com/ianho7/dmm-download-helper.git
