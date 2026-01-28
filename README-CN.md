@@ -19,6 +19,8 @@
 
 **DMM Download Helper** 是一款专为 DMM (dmm.com / dmm.co.jp) 平台设计的浏览器扩展。它能够自动捕捉视频播放时的 MPD 清单地址以及对应的解密密钥（Widevine/ClearKey），并一键生成 `N_m3u8DL-RE` 的下载命令行。
 
+[查看演示视频](https://image.906732.xyz/output.webm)
+
 > [!NOTE]
 > 本项目仅供学习和研究目的使用，请遵守相关法律法规。
 

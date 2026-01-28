@@ -18,6 +18,8 @@
 
 **DMM Download Helper** is a browser extension designed specifically for the DMM (dmm.com / dmm.co.jp) platform. It can automatically capture the MPD manifest address and the corresponding decryption key (Widevine/ClearKey) during video playback, and generate the download command line `N_m3u8DL-RE` with one click. 
 
+[Watch the demo video](https://image.906732.xyz/output.webm)
+
 > [!NOTE] 
 > This project is intended for educational and research purposes only. Please comply with relevant laws and regulations.
 
