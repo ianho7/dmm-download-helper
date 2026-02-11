@@ -65,9 +65,10 @@ bun run build
 ### 1. 解密エンジンの設定
 このツールが生成するコマンドは、デフォルトで **SHAKA_PACKAGER** を使用します。
 - **設定手順**：
-  1. [shaka-packager releases](https://github.com/shaka-project/shaka-packager/releases) から `packager-win-x64.exe` をダウンロードします。
-2. `N_m3u8DL-RE.exe` と同じディレクトリに配置します。
-  3. **リネーム** して `shaka-packager.exe` にします。
+  1.[N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE/releases/tag/v0.5.1-beta) へアクセスし、`N_m3u8DL-RE` をダウンロードしてください。
+  2.[shaka-packager releases](https://github.com/shaka-project/shaka-packager/releases) から `packager-win-x64.exe` をダウンロードしてください。
+  3.`N_m3u8DL-RE.exe` と同じディレクトリに配置してください。
+  4.**リネーム**して `shaka-packager.exe` にします。
 - **トラブルシューティング**：ダウンロード後の動画が再生できない場合は、コマンド内のエンジンサフィックスを `MP4DECRYPT` に変更してみてください。
 
 ### 2. プロキシ設定
@@ -86,3 +87,18 @@ DMM の地域制限があるため、ご利用の端末環境（CMD/PowerShell/T
 ## ⚖️ オープンソースライセンス
 
 本项目は [MIT License](LICENSE) ライセンスを採用しています。
+
+## 💖 支援について
+
+このツールがお役に立てれば、コーヒー一杯をご馳走していただけると励みになります！皆様の応援がプロジェクト継続の力となります。
+
+| プラットフォーム | 支払方法 | リンク |
+| :--- | :--- | :--- |
+| **Afdian** | WeChat / Alipay | [👉 支援はこちら](https://afdian.com/a/ianho7) |
+| **Buy Me a Coffee** | クレジットカード / Apple Pay | [👉 支援はこちら](https://www.buymeacoffee.com/ianho7) |
+
+### ⚖️ 免責事項
+1. **利用目的**: 本プロジェクトは**技術研究および学習交流**のみを目的としています。作者は著作権で保護されたコンテンツを一切提供しません。
+2. **寄付の性質**: すべての支援は**自発的な寄付**であり、ソフトウェアのライセンス購入、機能解放、または技術サポートの対価ではありません。
+3. **コンプライアンス**: 利用者は、居住地の法律および関連プラットフォームの利用規約を遵守する必要があります。作者は著作権侵害行為を一切支持しません。
+4. **免責事項**: 本ツールの利用により生じた法的トラブル、アカウントの停止、データの損失等について、作者は一切の責任を負いません。

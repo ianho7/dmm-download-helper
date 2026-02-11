@@ -66,9 +66,10 @@ bun run build
 ### 1. 解密引擎配置
 本工具生成的命令默认使用 **SHAKA_PACKAGER**。
 - **配置步骤**：
-  1. 前往 [shaka-packager releases](https://github.com/shaka-project/shaka-packager/releases) 下载 `packager-win-x64.exe`。
-  2. 将其放置在 `N_m3u8DL-RE.exe` 同一目录下。
-  3. **重命名** 为 `shaka-packager.exe`。
+  1.前往[N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE/releases/tag/v0.5.1-beta) 下载`N_m3u8DL-RE`。
+  2. 前往 [shaka-packager releases](https://github.com/shaka-project/shaka-packager/releases) 下载 `packager-win-x64.exe`。
+  3. 将其放置在 `N_m3u8DL-RE.exe` 同一目录下。
+  4. **重命名** 为 `shaka-packager.exe`。
 - **故障排除**：若下载后的视频无法播放，请尝试将命令中的引擎后缀更换为 `MP4DECRYPT`。
 
 ### 2. 代理设置
@@ -87,3 +88,18 @@ bun run build
 ## ⚖️ 开源协议
 
 本项目采用 [MIT License](LICENSE) 许可。
+
+## 💖 赞助支持
+
+如果您觉得这个工具为您节省了时间，欢迎请我喝杯咖啡。您的支持是项目持续更新的动力！
+
+| 支付平台 | 支付方式 | 链接 |
+| :--- | :--- | :--- |
+| **爱发电 (Afdian)** | 微信 / 支付宝 | [👉 点击前往赞助](https://afdian.com/a/ianho7) |
+| **Buy Me a Coffee** | 国际信用卡 / Apple Pay | [👉 点击前往赞助](https://www.buymeacoffee.com/ianho7) |
+
+### ⚖️ 免责声明
+1. **性质定义**：本项目仅供**技术研究与学习交流**使用。作者不提供任何音视频、图片或其他版权受限内容。
+2. **无偿赠予**：所有赞助均为自愿性质的**无偿赠予**，不视为购买任何软件功能、授权或技术支持。
+3. **合规使用**：用户在使用本工具时，必须遵守所在地法律法规及相关平台的服务协议。作者不支持任何侵犯版权的行为。
+4. **责任豁免**：作者不对因使用本工具产生的任何法律纠纷、账号封禁或数据丢失承担责任。
