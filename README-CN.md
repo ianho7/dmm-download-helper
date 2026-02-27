@@ -66,10 +66,12 @@ bun run build
 ### 1. 解密引擎配置
 本工具生成的命令默认使用 **SHAKA_PACKAGER**。
 - **配置步骤**：
-  1.前往[N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE/releases/tag/v0.5.1-beta) 下载`N_m3u8DL-RE`。
+  1. 前往[N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE/releases/tag/v0.5.1-beta) 下载`N_m3u8DL-RE`。
   2. 前往 [shaka-packager releases](https://github.com/shaka-project/shaka-packager/releases) 下载 `packager-win-x64.exe`。
   3. 将其放置在 `N_m3u8DL-RE.exe` 同一目录下。
   4. **重命名** 为 `shaka-packager.exe`。
+  5. 目录文件实例
+  <img src="public/dir.png">
 - **故障排除**：若下载后的视频无法播放，请尝试将命令中的引擎后缀更换为 `MP4DECRYPT`。
 
 ### 2. 代理设置

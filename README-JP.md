@@ -69,6 +69,8 @@ bun run build
   2.[shaka-packager releases](https://github.com/shaka-project/shaka-packager/releases) から `packager-win-x64.exe` をダウンロードしてください。
   3.`N_m3u8DL-RE.exe` と同じディレクトリに配置してください。
   4.**リネーム**して `shaka-packager.exe` にします。
+  5. ディレクトリファイル例
+  <img src="public/dir.png">
 - **トラブルシューティング**：ダウンロード後の動画が再生できない場合は、コマンド内のエンジンサフィックスを `MP4DECRYPT` に変更してみてください。
 
 ### 2. プロキシ設定
